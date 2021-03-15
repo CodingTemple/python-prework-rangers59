@@ -73,4 +73,9 @@ def is_consecutive(a_list):
             break
     print(status)
 
-is_consecutive([1,10,2,3,4,5])
+is_consecutive([1,2,3,4,5])
+
+def welcome(marvel_character):
+    print(f'Welcome to {marvel_character} Vision')
+
+welcome('Wanda')
